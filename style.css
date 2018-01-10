@@ -1,0 +1,29 @@
+#menu
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+
+}
+
+.option
+{
+	padding-right:15px;
+
+}
+
+.option img
+{
+	height: 20px;
+	width: 20px;
+}
+
+.option.bouton
+{
+	background-color: rgb(70,131,234);
+	color:white;
+	font-weight: bold;
+	border-radius:2px;
+	border: 1px rgb(66,133,244) solid;
+	padding:0 12px;
+}

@@ -1,9 +1,24 @@
+/* General */
+
+body{
+  font: 13px arial,sans-serif;
+}
+
+.button
+{
+  border-radius: 2px;
+  padding: 0 12px;
+  font-weight: bold;
+
+}
+
+/* Barre de menu */
+
 #menu
 {
     display: flex;
     justify-content: flex-end;
     padding: 0 30px;
-
 }
 
 .option
@@ -18,14 +33,12 @@
 	width: 20px;
 }
 
-.option.bouton
+
+.option.button
 {
 	background-color: rgb(70,131,234);
 	color:white;
-	font-weight: bold;
-	border-radius:2px;
-	border: 1px rgb(66,133,244) solid;
-	padding:0 12px;
+  border: 1px rgb(66,133,244) solid;
 }
 
 /* Logo */
@@ -59,6 +72,27 @@
    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
    border: 0;
    outline: 0;
-   font: 16px arial,sans-serif;
+   font-size: 16px;
+
+}
+
+/* Searchbutton */
+
+.searchbutton
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+
+}
+
+.searchbutton .button
+{
+  height: 36px;
+  line-height: 36px;
+  background-color: #F2F2F2;
+	color: #757575;
+  margin: 11px 4px;
+  padding: 0 16px;
 
 }
